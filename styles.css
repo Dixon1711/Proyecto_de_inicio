@@ -82,3 +82,51 @@ main img{
 .main-left button:active{
     background-color: #2362c8;
 }
+/* SECOND */
+.second{
+    background-color:antiquewhite;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+h2{
+    margin: 0;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.second > div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.second .card{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 245px;
+    gap: 10px;
+}
+.card-img{
+    width: 80%;
+    flex: 1;
+    margin: auto;
+    border-radius: 10px;
+}
+.card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 3px solid #1f2937;
+    border-radius: 10px;
+}
+.second .card p{
+    text-align: center;
+    margin: 0;
+    font-weight: 18px;
+    color: #1f2937;
+}
