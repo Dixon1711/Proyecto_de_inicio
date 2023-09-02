@@ -130,3 +130,27 @@ h2{
     font-weight: 18px;
     color: #1f2937;
 }
+
+/*section three*/
+.third{
+    background-color: #e5e7eb;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contenedor-third{
+    width: 75%;
+}
+.contenedor-third p:nth-child(1){
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+}
+.contenedor-third p:nth-child(2){
+    font-weight: bolder;
+    text-align: end;
+    padding-right: 40px;
+}
